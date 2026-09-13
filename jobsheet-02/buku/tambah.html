@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tambah buku</title>
+  	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+  <header>
+    <h1>SIMPUS-Mini</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="buku/list.html">Daftar buku</a></li>
+        <li><a href="buku/tambah.html">Tambah buku</a></li>
+        <li><a href="anggota/list.html">Daftar Anggota</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <section>
+        <span>(Wajib diisi)</span>
+        <h2>Tambah Buku</h2>
+        <form action="" method="post">
+          <p>
+            <label for="judul"
+              >Judul <span style="color: red">Wajib</span></label
+            >
+            <input type="text" name="judul" id="judul" required />
+          </p>
+          <p>
+            <label for="pengarang">Pengarang</label>
+            <input type="email" name="pengarang" id="pengarang" required />
+          </p>
+          <p>
+            <label for="tahun_terbit">Tahun Terbit</label>
+            <input
+              type="text"
+              name="tahun"
+              id="tahun"
+              min="1900"
+              max="2026"
+              required
+            />
+          </p>
+          <p>
+            <label for="isbn">ISBN</label>
+            <input type="text" name="isbn" id="isbn" />
+          </p>
+          <p>
+            <label for="stok">Stok</label>
+            <input type="number" name="stok" id="stok" min="0" required />
+          </p>
+          <p>
+            <label for="kategori">Kategori</label>
+            <select name="kategori" id="kategori">
+              <option value="fiksi">Fiksi</option>
+              <option value="non-fiksi">No Fiksi</option>
+
+              <option value="referensi">Reference</option>
+            </select>
+          </p>
+          <p>
+            <button type="submit">Simpan</button>
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 SIMPUS-mini &mdash; Jobsheet 1</p>
+    </footer>
+  </body>
+</html>

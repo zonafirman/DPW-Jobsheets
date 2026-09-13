@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tambah Anggota</title>
+  	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+  <header>
+     <h1>SIMPUS-Mini</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="buku/list.html">Daftar buku</a></li>
+          <li><a href="buku/tambah.html">Tambah buku</a></li>
+          <li><a href="anggota/list.html">Daftar Anggota</a></li>
+        </ul>
+      </nav>
+  </header>
+  <body>
+    <main>
+  <section>
+      <span>(Wajib diisi)</span>
+      <h2>Tambah Anggota</h2>
+      <form action="" method="post">
+        <p>
+          <label for="nama">Nama</label>
+          <input type="text" name="nama_lengkap" id="nama" required/>
+        </p>
+        <p>
+          <label for="nama">Email</label>
+          <input type="email" name="email" id="emaii" required/>
+        </p>
+        <p>
+          <label for="nama">No. Anggota</label>
+          <input type="text" name="no_anggota" id="no_anggota" required />
+        </p>
+        <p>
+          <label for="nama">Tanggal Lahir</label>
+          <input
+            type="datetime-local"
+            name="tanggl_lahir"
+            id="tanggal_lahir"
+            value="dd/mm/yyyy hh:mm:ss"
+          />
+        </p>
+        <p>
+          <label for="nama">Alamat</label>
+          <textarea id="alamat" rows="10 " id="nama" cols="30"> </textarea>
+          <input type="text" name="alamat" id="alamat" />
+        </p>
+        <p>
+          <label for="nama">No. HP</label>
+          <input type="number" name="no_hp" id="no_hp" />
+        </p>
+        <p>
+            <button type="submit">Simpan</button>
+        </p>
+      </form>
+    </section>
+    </main>
+  
+     <footer>
+        <p>&copy; 2026 SIMPUS-mini &mdash; Jobsheet 1
+        </p>
+    </footer>
+  </body>
+</html>

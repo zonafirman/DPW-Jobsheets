@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIMPUS-mini | Daftar Anggota</title>
+    <style>
+        .background-utama {
+            background-color: aquamarine;
+
+        }
+    </style>
+  	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+  <body>
+    <header>
+      <h1>SIMPUS-Mini</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="buku/list.html">Daftar buku</a></li>
+          <li><a href="buku/tambah.html">Tambah buku</a></li>
+          <li><a href="anggota/list.html">Daftar Anggota</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Daftar Anggota</h2>
+        <table border="1">
+          <thead class="background-utama" >
+            <tr class="p">
+              <th rowspan="2">No Anggota</th>
+              <th rowspan="2">Nama</th>
+              <th rowspan="2">Alamat</th>
+              <th rowspan="2">NO.HP</throw>
+              <th colspan="2">Jenis Kelamin</th>
+              <th colspan="2">Aksi</th>
+            </tr>
+            <tr>
+            <th>Laki- Laki</th>
+              <th>Perempuan</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>AO01</td>
+              <td>Siti Aminah</td>
+              <td>Malang</td>
+              <td>0812xxx</td>
+              <td>v</td>
+              <td></td>
+              
+              <td>
+                <button type="button">Edit</button>
+                <button type="button" class="btn-detail">Detail</button>
+              </td>
+              <td> <button type="button">Hapus</button></td>
+            </tr>
+              <tr>
+              <td>AO02</td>
+              <td>Budi Santoso</td>
+              <td>Batu</td>
+              <td>0813xxx</td>
+              <td></td>
+              <td class="text-center">v</td>
+              
+              <td>
+                <button type="button">Edit</button>
+                <button type="button" class="btn-detail">Detail</button>
+              </td>
+              <td> <button type="button">Hapus</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 SIMPUS-mini &mdash; Jobsheet 1
+        </p>
+    </footer>
+  </body>
+</html>

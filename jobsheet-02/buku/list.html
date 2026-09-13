@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIMPUS-mini | Daftar Buku</title>
+    <style>
+        .p {
+            margin: 3;
+            padding-bottom: 3;
+            padding-top: 3;
+            padding-left: 3;
+            padding-right: 3;
+        }
+        .background-utama {
+            background-color: aquamarine;
+
+        }
+    </style>
+  	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+  <body>
+    <header>
+       <h1>SIMPUS-Mini</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="buku/list.html">Daftar buku</a></li>
+          <li><a href="buku/tambah.html">Tambah buku</a></li>
+          <li><a href="anggota/list.html">Daftar Anggota</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Daftarbuku</h2>
+        <table border="1">
+          <thead class="background-utama p" >
+            <tr class="p">
+              <th>Judul</th>
+              <th>Pengarang</th>
+              <th>Tahun</th>
+              <th>Stok</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Laskar Pelangi</td>
+              <td>Andrea Hirata</td>
+              <td>2005</td>
+              <td>4</td>
+              <td>
+                <button type="button" class="button-1">Edit</button>
+                <button type="button" class="btn-detail">Detail</button>
+                <button type="button">Hapus</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Bumi Manusia</td>
+              <td>Prampdya Ananta Toer</td>
+              <td>1980</td>
+              <td>2</td>
+              <td>
+                <button type="button">Edit</button>
+                <button type="button" class="btn-detail">Detail</button>
+                <button type="button">Hapus</button>
+              </td>
+            </tr>
+             <tr>
+              <td>Negeri 5 Menara</td>
+              <td>Ahmad Faudi</td>
+              <td>2009</td>
+              <td>0</td>
+              <td>
+                <button type="button">Edit</button>
+                <button type="button" class="btn-detail">Detail</button>
+                <button type="button">Hapus</button>
+              </td>
+            </tr>
+             <tr>
+              <td>Filosofi Teras</td>
+              <td>Henry Manampiring</td>
+              <td>2018</td>
+              <td>5</td>
+              <td>
+                <button type="button">Edit</button>
+                <button type="button" class="btn-detail">Detail</button>
+                <button type="button">Hapus</button>
+              </td>
+            </tr>
+             <tr>
+              <td>Ronggeng Dukuh</td>
+              <td>Ahmad Tohari</td>
+              <td>1982</td>
+              <td>1</td>
+              <td>
+                <button type="button">Edit</button>
+                <button type="button" class="btn-detail">Detail</button>
+                <button type="button">Hapus</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 SIMPUS-mini &mdash; Jobsheet 1
+        </p>
+    </footer>
+  </body>
+</html>
